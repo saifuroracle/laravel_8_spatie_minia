@@ -6,19 +6,23 @@
                 <div class="navbar-brand-box bg-theme-light">
                     <a href="{{ route('admin.dashboard') }}" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24">
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> --}}
+
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> <span class="logo-txt text-white">Marks Dessert</span>
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> --}}
+                             <span class="logo-txt text-white">Company</span>
                         </span>
                     </a>
 
                     <a href="{{ route('admin.dashboard') }}" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24">
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> --}}
+
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> <span class="logo-txt">Marks Dessert</span>
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" alt="" height="24"> --}}
+                             <span class="logo-txt">Company</span>
                         </span>
                     </a>
                 </div>
@@ -57,7 +61,7 @@
                 <div class="dropdown d-inline-block">
                     <button type="button" class="btn header-item bg-soft-light" id="page-header-user-dropdown"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="rounded-circle header-profile-user" src="{{ asset('assets/images/logo.png') }}"
+                        <img class="rounded-circle header-profile-user" src="{{ asset('assets/images/user.jpg') }}"
                             alt="Header Avatar">
                         <span class="d-none d-xl-inline-block ms-1 fw-medium text-white">{{ Auth::user()->name }}</span>
                         <i class="mdi mdi-chevron-down d-none d-xl-inline-block text-white"></i>
