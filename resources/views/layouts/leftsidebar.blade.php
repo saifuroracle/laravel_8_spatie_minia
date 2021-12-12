@@ -16,7 +16,6 @@
                     </li>
 
 
-
                     @if (!empty(array_intersect(['user-list', 'role-list'], Auth::user()->getAllPermissions()->pluck('name')->toArray())))
                         <li>
                             <a href="javascript: void(0);" class="has-arrow">
