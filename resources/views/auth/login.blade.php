@@ -9,11 +9,11 @@
                 <div class="auth-full-page-content d-flex p-sm-5 p-4">
                     <div class="w-100">
                         <div class="d-flex flex-column h-100">
-                            <div class="mb-4 mb-md-5 text-center">
+                            {{-- <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.html" class="d-block auth-logo">
                                     <img src="assets/images/logo.png" alt="" height="28"> <span class="logo-txt">Marks Dessert Queen</span>
                                 </a>
-                            </div>
+                            </div> --}}
                             <div class="auth-content my-auto">
                                 <div class="text-center">
                                     <h5 class="mb-0">Welcome Back !</h5>
@@ -85,12 +85,12 @@
 
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                {{-- <div class="carousel-item active">
                                     <img class="d-block w-100" src="{{ asset('assets/images/banner/banner-1.png') }}" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="{{ asset('assets/images/banner/banner-2.jpeg') }}" alt="Second slide">
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
